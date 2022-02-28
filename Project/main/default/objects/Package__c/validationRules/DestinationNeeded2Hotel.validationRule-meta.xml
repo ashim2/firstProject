@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DestinationNeeded2Hotel</fullName>
+    <active>true</active>
+    <errorConditionFormula>Destination__r.Id !=  Hotel_Detail__r.Destination__r.Id</errorConditionFormula>
+    <errorMessage>Hotel not in selected Destination</errorMessage>
+</ValidationRule>

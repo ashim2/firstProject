@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#EA0B0B</headerColor>
+        <logo>X178042911_143423711122491_895278073</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>This application helps the visitor to select hotels based on location and hotel users to add the hotel details.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>VisitNepal2022</label>
+    <navType>Standard</navType>
+    <tabs>Admin_Page</tabs>
+    <tabs>HotelOwner_Page</tabs>
+    <tabs>Visitor_Page</tabs>
+    <tabs>standard-Location</tabs>
+    <tabs>Hotel_Detail__c</tabs>
+    <tabs>Package__c</tabs>
+    <tabs>Destination__c</tabs>
+    <tabs>Place__c</tabs>
+    <tabs>Rooms_and_Services__c</tabs>
+    <tabs>HotelPayment__c</tabs>
+    <tabs>Create_Package</tabs>
+    <tabs>Create_Destination</tabs>
+    <tabs>Create_Place</tabs>
+    <tabs>Payment</tabs>
+    <tabs>Hotel</tabs>
+    <tabs>Rooms_Services</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>VisitNepal2022_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#FFFFFF</backgroundColor>
+    <bodyColor>#33FF33</bodyColor>
+    <bottomLine>
+        <color>#AAAAFF</color>
+        <height>5</height>
+    </bottomLine>
+    <footer>
+        <backgroundColor>#33FF33</backgroundColor>
+        <height>0</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#33FF33</backgroundColor>
+        <height>0</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#AAAAFF</color>
+        <height>5</height>
+    </middleLine>
+    <name>Payment Approved</name>
+    <topLine>
+        <color>#AAAAFF</color>
+        <height>5</height>
+    </topLine>
+</Letterhead>

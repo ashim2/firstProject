@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hotel_Detail__c</fullName>
+    <externalId>false</externalId>
+    <label>Hotel Detail</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Hotel_Detail__c.OwnerId</field>
+            <operation>equals</operation>
+            <valueField>$User.Id</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Hotel_Detail__c</referenceTo>
+    <relationshipLabel>RoomsServices</relationshipLabel>
+    <relationshipName>RoomsServices1</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RoomsAndService</fullName>
+    <active>true</active>
+    <errorConditionFormula>Hotel_Detail__r.Id   !=  Rooms_and_Services__r.Hotel_Detail__r.Id</errorConditionFormula>
+    <errorMessage>Services not available in selected Hotel</errorMessage>
+</ValidationRule>

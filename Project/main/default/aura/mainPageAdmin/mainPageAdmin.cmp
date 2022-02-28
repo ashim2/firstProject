@@ -1,0 +1,39 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+    <Lightning:card class="lcard">
+        
+        <div class = " slds-text-align_center"  style = "text-align:center; justify-content:space-between; ">
+            <h1 class="slds-text-heading_medium" style ="color:black;padding:8px;font-size:32px;"> --- Admin --- </h1>
+               <p class =  "slds-text-align_center " style = "color:black;font-size:14px; font-style:italic;">
+                   Welcome to VisitNepal2022. Here you can add the Destination and Places a visitor can visit.<br/>
+                   
+               </p>
+        </div>
+    </Lightning:card>
+    
+    <br/>
+    
+    <div class= "container " Style="Background-color:white;width:1350px;">
+        
+        <div class="element">
+            <div class="slds-grid">
+                    <div class="slds-col slds-align-top">
+                        <span Style="color:black; font-size: 18px;">
+                            <img src="{!$Resource.namche}" alt="User avatar" style="max-width: 400px;height:200px;"/>           
+                        </span>
+                    </div>
+                    
+                    <div class="slds-col slds-align-middle">
+                        <span Style="color:black; font-size: 18px;">
+                            <img src="{!$Resource.gumba}" alt="User avatar" style="max-width: 400px;height:200px;"/>
+                        </span>
+                    </div>   
+                    
+                    <div class="slds-col slds-align-middle">
+                        <span Style="color:black; font-size: 18px;">
+                            <img src="{!$Resource.Pokhara}" alt="User avatar" style="max-width: 200px;height:200px;"/>
+                        </span>
+                    </div>
+                </div>
+        </div>
+    </div>
+</aura:component>

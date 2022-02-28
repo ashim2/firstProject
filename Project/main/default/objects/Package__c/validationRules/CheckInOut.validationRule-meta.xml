@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckInOut</fullName>
+    <active>true</active>
+    <errorConditionFormula>Check_In__c  &gt;   Check_Out__c</errorConditionFormula>
+    <errorMessage>Check Out date cannot be before of Check In.</errorMessage>
+</ValidationRule>

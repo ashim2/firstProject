@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TouristPlaceNeedDestination</fullName>
+    <active>true</active>
+    <errorConditionFormula>Destination__r.Id !=  Near_By_Tourist_Place__r.Destination__r.Id</errorConditionFormula>
+    <errorMessage>Near by Tourist Place doesn&apos;t lie in same Destination.</errorMessage>
+</ValidationRule>

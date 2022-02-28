@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roomsequalhotel</fullName>
+    <active>true</active>
+    <errorConditionFormula>Hotel_Detail__r.OwnerId  !=  $User.Id</errorConditionFormula>
+    <errorMessage>Wrong Hotel has been selected. Select your Hotel.</errorMessage>
+</ValidationRule>

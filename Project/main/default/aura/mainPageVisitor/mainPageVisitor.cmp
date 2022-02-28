@@ -1,0 +1,61 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+    <Lightning:card class="lcard">
+        
+        <div class = " slds-text-align_center"  style = "text-align:center; justify-content:space-between; ">
+            <h1 class="slds-text-heading_medium" style ="color:black;padding:8px;font-size:32px;"> --- Visitor --- </h1>
+               <p class =  "slds-text-align_center " style = "color:black;font-size:14px; font-style:italic;">
+                   Welcome to VisitNepal2022. Here you can create a Package which includes the destination you want to be, place you want to visit and select the hotel, services and rooms you want.<br/>
+                   
+                   Enjoy creating your Package!!!<br/>
+                   
+               </p>
+        </div>
+    </Lightning:card>
+    
+    <br/>
+    
+    <div class= "container " Style="Background-color:white;width:1350px;">
+        
+        <div class="element">
+            <div class="slds-grid">
+                    <div class="slds-col slds-align-top">
+                        <span Style="color:black; font-size: 18px;">
+                            <img src="{!$Resource.Hotel1}" alt="User avatar" style="max-width: 200px;height:200px;"/>           
+                        </span>
+                    </div>
+                    
+                    <div class="slds-col slds-align-middle">
+                        <span Style="color:black; font-size: 18px;">
+                            <img src="{!$Resource.Services1}" alt="User avatar" style="max-width: 400px;height:200px;"/>
+                        </span>
+                    </div>   
+                    
+                    <div class="slds-col slds-align-middle">
+                        <span Style="color:black; font-size: 18px;">
+                            <img src="{!$Resource.room1}" alt="User avatar" style="max-width: 200px;height:200px;"/>
+                        </span>
+                    </div>
+                </div>
+            <br/>
+            <div class="slds-grid">
+                    <div class="slds-col slds-align-top">
+                        <span Style="color:black; font-size: 18px;">
+                            <img src="{!$Resource.Pokhara}" alt="User avatar" style="max-width: 200px;height:200px;"/>           
+                        </span>
+                    </div>
+                    
+                    <div class="slds-col slds-align-middle">
+                        <span Style="color:black; font-size: 18px;">
+                            <img src="{!$Resource.Hotel3}" alt="User avatar" style="max-width: 400px;height:200px;"/>
+                        </span>
+                    </div>   
+                    
+                    <div class="slds-col slds-align-middle">
+                        <span Style="color:black; font-size: 18px;">
+                            <img src="{!$Resource.gumba}" alt="User avatar" style="max-width: 200px;height:200px;"/>
+                        </span>
+                    </div>
+                </div>
+        </div>
+    </div>
+</aura:component>

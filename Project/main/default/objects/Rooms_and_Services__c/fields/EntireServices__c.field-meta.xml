@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EntireServices__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( INCLUDES ( Services__c , &quot;Breakfast&quot; ), &quot;Breakfast; &quot;,null ) &amp;
+IF ( INCLUDES ( Services__c  , &quot;Dinner&quot; ), &quot;Dinner; &quot;,null ) &amp;
+IF ( INCLUDES ( Services__c  , &quot;Gym&quot; ), &quot;Gym; &quot;,null ) &amp;
+IF ( INCLUDES ( Services__c  , &quot;Camp Fire&quot; ), &quot;Camp Fire; &quot;,null ) &amp;
+IF ( INCLUDES ( Services__c  , &quot;Lunch&quot; ), &quot;Lunch; &quot;,null )
+
+&amp;&quot; , No of Beds: &quot;&amp;
+
+   No_of_Beds__c 
+
+&amp;&quot; , Room No: &quot;&amp;
+
+    Room_Number__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>EntireServices</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

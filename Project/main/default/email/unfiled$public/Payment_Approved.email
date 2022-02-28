@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#33FF33; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>Hello&nbsp;{!Package__c.User_Name__c} !!!</div><div><br></div>Your Payment is approved and your Package is successfully created.<div><br></div><div>&nbsp;Check In Date and Time :&nbsp;{!Package__c.Check_In__c}</div><div><br></div><div>&nbsp;Check Out Date and Time :&nbsp;{!Package__c.Check_Out__c}</div><div><br></div><div>Hotel Booked :&nbsp;{!Package__c.Hotel_Detail__c}</div><div><br></div><div>Services :&nbsp;{!Package__c.Rooms_and_Services__c}</div>]]></td>
+</tr>
+</table>

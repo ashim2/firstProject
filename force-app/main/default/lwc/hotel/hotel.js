@@ -29,5 +29,3 @@ export default class Hotel extends LightningElement {
         //cpde tp dis[;ay]
     }
 }
-
-

@@ -27,5 +27,3 @@ export default class RoomsServices extends LightningElement {
 
     }
 }
-
-

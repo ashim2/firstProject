@@ -26,5 +26,3 @@ export default class Place extends LightningElement {
         //cpde tp dis[;ay]
     }
 }
-
-

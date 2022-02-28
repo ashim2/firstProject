@@ -23,5 +23,3 @@ export default class Payment extends LightningElement {
         //cpde tp dis[;ay]
     }
 }
-
-

@@ -25,5 +25,3 @@ export default class Destination extends LightningElement {
         //cpde tp dis[;ay]
     }
 }
-
-
